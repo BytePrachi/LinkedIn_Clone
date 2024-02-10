@@ -1,0 +1,155 @@
+.header {
+    height: 52px;
+    background-color: white;
+    padding-left: 192px; 
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+img {
+    height: 34.17px;
+    width: 34.17px;
+    padding-top: 10px;
+}
+
+.outer {
+    display: flex;
+    /* justify-content: space-between; 
+    align-items: center;  */
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.search-box {
+    padding-top: 10px;
+    display: flex;
+    box-shadow: none;
+    padding-right: 150px;
+}
+
+.home img {
+    width: 22px;
+    height: 19px;
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 28px;
+}
+
+.my-network img {
+    width: 30px;
+    height: 30px;
+    padding-top: 0;
+    padding-left: 21px;
+    padding-right: 28px;
+    /* padding-bottom: -20px; */
+}
+
+.job-bag img {
+    width: 26px;
+    height: 28px;
+    padding-top: 2px;
+    padding-left: 21px;
+    padding-right: 28px;
+}
+
+.job-bag div {
+    padding-left: 20px;
+}
+
+.messaging img {
+    height: 18px;
+    width: 21px;
+    padding-left: 21px;
+}
+
+.notifications img {
+    height: 20px;
+    width: 24px;
+    padding-left: 38px;
+    padding-right: 28px;
+}
+
+.notifications div {
+    padding-left: 20px;
+}
+
+.account > img {
+    height: 21px;
+    width: 21px;
+    padding-left: 14px;
+    padding-right: 28px;
+}
+
+.account div {
+    padding-left: 15px;
+}
+
+.account div img {
+    height: 8px;
+    width: 10px;
+}
+
+.vertical-line {
+    border-right: 1px solid #ccc; 
+    height: 60px; 
+    margin-left: 0px; 
+}
+
+.business img {
+    height: 24px;
+    width: 23px;
+}
+
+.business > img {
+    height: 20px;
+    width: 21px;
+    padding-left: 50px;
+    padding-right: 28px;
+}
+
+.business-arrow label {
+    padding-left: 20px;
+}
+
+.business-arrow label img {
+    height: 8px;
+    width: 10px;
+}
+
+.tryPremium {
+    height: 20px;
+    width: 120px;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/* CSS or Styled Components */
+@media (max-width: 600px) {
+    .search-box {
+      display: none;
+    }
+  }
+  
+
+@media (max-width: 1290px) {
+    .icons label {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .RightNav {
+        display: none;
+    }
+}
+
+@media (max-width: 1040px) {
+    .LeftNav {
+        display: none;
+    }
+}

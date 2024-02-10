@@ -1,0 +1,323 @@
+.section {
+    height: 4833.04px;
+    display: flex;
+    background-color: lightgrey; 
+    padding-left: 198px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    /* width: 86.99%; */
+}
+
+.left-1 {
+    width: 225px;
+    height: 370.16px;
+    border: 2px solid rgb(206, 194, 194);
+    border-radius: 10px;
+}
+
+.main-nav {
+    height: 3965.09;
+    width: 387px;
+}
+
+.half-above-div img {
+    width: 225px;
+    height: 56.25px;
+    padding-top: 0px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.circle-div {
+    position: relative;
+}
+
+.circle-div img {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left-1 {
+    background-color: white;
+}
+
+.left-1 h4 {
+    font-family: Calibri;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+
+.left-1 p {
+    font-family: Calibri;
+    text-align: center;
+    margin: 0;
+}
+
+.half-below-div div+div p {
+    display: flex;
+    justify-content: space-between;
+    font-family: Calibri;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0.7;
+}
+
+.half-below-div div+div p a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 700;
+} 
+
+.half-below-div div+div p+p+p {
+    display: flex;
+    justify-content: space-between;
+    font-family: Calibri;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 1;
+}
+
+.half-below-div div+div+div img {
+    height: 15px;
+    width: 15px;
+    padding-right: 5px;
+}
+
+.half-below-div div+div+div p {
+    font-size: 14px;
+}
+
+.half-below-div div+div+div p+p {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    opacity: 1;
+    text-align: left;
+}
+
+.half-below-div div+div+div img {
+    font-size: 14px;
+}
+
+.half-below-div div+div+div+div {
+    display: flex;
+}
+
+.half-below-div div+div+div+div img {
+    height: 15px;
+    width: 25px;
+    padding-left: 4px;
+    padding-right: 0;
+    opacity: 0.7;
+}
+
+.half-below-div div+div+div+div p {
+    padding-top: 9px;
+    padding-left: 0;
+}
+
+.left-2 {
+    margin-top: 10px;
+    width: 215px;
+    height: 180.8px;
+    border: 2px solid rgb(206, 194, 194);
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 10px;
+    font-family: Calibri;
+} 
+
+.left-2 a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 700;
+    font-family: Calibri;
+}
+
+.plus-icon {
+    font-weight: 700;
+    font-size: 22px;
+    padding-left: 145px;
+}
+
+.left-2 #id {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    opacity: 0.7;
+}
+
+/*   main-nav   */
+.section .center-nav {
+    /* justify-content: center; */
+    width: 555px;
+    height: 116px;
+    margin-left: 24px;
+    border-radius: 10px;
+    border: 2px solid rgb(206, 194, 194);
+    background-color: white;
+    padding-right: 5px;
+}
+
+.center-nav img {
+    width: 48px;
+    height: 48px;
+    margin: 4px 8px 0;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 2px;
+}
+.center-nav div input{
+    display: flex;
+    align-items: center;
+    height: 21px;
+    width: 467px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px 8px 10px 16px;
+    margin: 8px 16px 0;
+    margin: 8px 16px 0;
+}
+
+.center-nav span {
+    display: flex;
+    height: 20px;
+    width: 16px;
+}
+
+.center-nav span img {
+    height: 30px;
+    width: 30px;
+    padding-left: 40px;
+}
+
+.media {
+    display: flex;
+    padding-left: 60px;
+    font-family: Calibri;
+    font-size: 15px;
+}
+.event {
+    display: flex;
+    font-family: Calibri;
+    font-size: 15px;
+}
+.article {
+    display: flex;
+    font-family: Calibri;
+    font-size: 15px;
+}
+
+.posts {
+    width: 555px;
+    /* height: 592.78px; */
+    height: 610px;
+    border: 2px solid rgb(206, 194, 194);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.posts img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.card-1 {
+    display: flex;
+    padding-top: 10px;
+}
+
+.posts .card-1 { 
+    font-family: Calibri;
+}
+
+.card-1 div div {
+    padding-top: 10px;
+    display: flex;
+}
+
+.card-1 div div div {
+    padding-top: 1px;
+    opacity: 0.7;
+}
+
+.card-1 + div {
+    font-family: Calibri;
+    height: 80px;
+    width: 520px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.card-1 div div+div+div {
+    opacity: 0.9;
+    color: grey;padding-top: 10px;
+}
+
+.space-less {
+    margin-bottom: -10px;
+    opacity: 0.7;
+}
+
+.card-1 div .space-less-1 {
+    opacity: 1;
+}
+
+.see-more {
+    padding-left: 450px;
+    height: 20px;
+    width: 100px;
+}
+
+.card-2 {
+    width: 450px;
+    height: 330px;
+    border: 2px solid rgb(206, 194, 194);
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 1px;
+}
+
+.inside-card p {
+    width: 350px;
+    height: 20px;
+}
+
+.inside-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.one {
+    height: 20px;
+}
+.two {
+    height: 20px;
+}
+.three {
+    height: 20px;
+}
+.four {
+    height: 20px;
+}
+.five {
+    height: 20px;
+}
+.four-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-top: -9px;
+    vertical-align: 'middle'
+}
